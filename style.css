@@ -188,9 +188,6 @@ nav .self-info:hover {
 .tweet .content {
 	padding: 0.5rem 0.7rem;
 }
-.tweet .content img {
-	
-}
 .tweet .content .tweet-info .time::before {
 	content: " · ";
 }
