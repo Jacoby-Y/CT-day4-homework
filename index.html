@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+	<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./style.css">
+	<!-- <script defer scr="./"></script> -->
+	<title>Bootstrap?!?!</title>
+</head>
+<body class="bg-black text-light">
+	<div class="row">
+		<div class="col col-2 offset-2">
+			<nav class="nav-bar">
+				<div class="nav-item"><i class="bi bi-twitter"></i> </div>
+				<div class="nav-item text-bold"><i class="bi bi-house-fill"></i> Home</div>
+				<div class="nav-item"><i class="bi bi-hash"></i> Explore</div>
+				<div class="nav-item"><i class="bi bi-bell"></i> Notifications</div>
+				<div class="nav-item"><i class="bi bi-envelope"></i> Messages</div>
+				<div class="nav-item"><i class="bi bi-bookmark"></i> Bookmarks</div>
+				<div class="nav-item"><i class="bi bi-card-list"></i> Lists</div>
+				<div class="nav-item"><i class="bi bi-person"></i> Profile</div>
+				<div class="nav-item"><i class="bi bi-three-dots"></i> More</div>
+				<div class="tweet-btn btn bg-tw rounded-pill text-light py-2 px-3">Tweet</div>
+				<div class="nav-item self-info rounded-pill">
+					<img class="profile-pic" src="https://cdn.discordapp.com/avatars/428370494362746900/5f24ed7a0a27f696086965fc4e903c4f.webp?size=128" alt="Profile Pic">
+					<span>
+						<p class="name">Jacoby Yliniemi</p>
+						<p class="username text-secondary">@CobyDoesStuff</p>
+					</span>
+					<i class="bi bi-three-dots"></i>
+				</div>
+			</nav>
+		</div>
+		<div class="col col-2 offset-4 cards">
+			<input type="text" class="rounded-pill bg-dark border-0 px-4 py-1 text-secondary" placeholder="Search Twitter">
+			<div class="card bg-dark text-light whats-happening">
+				<div class="card-body">
+					<div class="card-title">What's Happening</div>
+					<div class="card-text">
+						<span class="info text-secondary">Florida News · Just Tomorrow</span> <br>
+						<span class="content">
+							Local man drives skateboard under a bridge, dies, orders pizza from heaven, then comes back down to eat it.
+						</span>
+					</div>
+				</div>
+				<div class="card-body">
+					<div class="card-text">
+						<span class="info text-secondary">Another Local News · Just Tomorrow</span> <br>
+						<span class="content">
+							Andre makes a mock-up of Twitter; confuses the world?!?
+						</span>
+					</div>
+				</div>
+			</div>
+			<div class="card bg-dark text-light">
+				<div class="card-header">Who to follow</div>
+				<div class="card-body follow-this-person">
+					<img class="profile-pic" src="https://media.npr.org/assets/img/2012/02/17/6874.5_01c91ebc_custom-19a59dc2b8d087677aaed0ebf4055fc5e11a1f80-s800-c85.png" alt="Profile Pic">
+					<span>
+						<p class="name">Windows</p>
+						<p class="username text-secondary">@Windows</p>
+					</span>
+					<button class="bg-white text-dark text-bold rounded-pill text-light border-0 px-3">Follow</button>
+				</div>
+				<div class="card-body follow-this-person">
+					<img class="profile-pic" src="https://photos5.appleinsider.com/gallery/47670-93100-000-lead-Apple-Logo-xl.jpg" alt="Profile Pic">
+					<span>
+						<p class="name">Apple</p>
+						<p class="username text-secondary">@Apple</p>
+					</span>
+					<button class="bg-white text-dark text-bold rounded-pill text-light border-0 px-3">Follow</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row" id="main-content">
+		<h2 id="home-txt">Home</h2>
+		<div class="col col-4 offset-4 p-0">
+			<div class="container post-tweet">
+				<div class="container pic-n-text">
+					<img class="profile-pic" src="https://cdn.discordapp.com/avatars/428370494362746900/5f24ed7a0a27f696086965fc4e903c4f.webp?size=128" alt="Profile Pic">
+					<input type="text" class="bg-black" placeholder="Enter tweet here">
+				</div>
+				<div class="container icons-n-post text-tw">
+					<i class="bi bi-image"></i>
+					<i class="bi bi-filetype-gif"></i>
+					<i class="bi bi-bar-chart-steps"></i>
+					<i class="bi bi-emoji-smile"></i>
+					<i class="bi bi-calendar-event"></i>
+					<i class="bi bi-geo-alt"></i>
+					<button class="bg-tw rounded-pill text-light border-0">Tweet</button>
+				</div>
+			</div>
+			<div class="container show-tweets text-tw">
+				Show 999 Tweets
+			</div>
+
+			<div class="container tweet">
+				<div class="img">
+					<img class="profile-pic" src="https://cdn.discordapp.com/avatars/428370494362746900/5f24ed7a0a27f696086965fc4e903c4f.webp?size=128" alt="">
+				</div>
+				<div class="content">
+					<div class="tweet-info">
+						<span class="name text-bold">Coby</span>
+						<span class="username text-secondary">@CobyDoesStuff</span>
+						<span class="time text-secondary">1s</span>
+					</div>
+					<div class="text">
+						Guys... This project is super tough! ); <a href="#">#CodingTemple</a>
+					</div>
+					<div class="interact text-secondary">
+						<div class="t-hover-tw"><i class="bi bi-chat"></i> 99</div>
+						<div class="t-hover-success"><i class="bi bi-arrow-repeat"></i> 99</div>
+						<div class="t-hover-like"><i class="bi bi-heart"></i> 99</div>
+						<div class="t-hover-tw"><i class="bi bi-upload"></i></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container tweet">
+				<div class="img">
+					<img class="profile-pic" src="https://i.natgeofe.com/n/de94c416-6d23-45f5-9708-e8d56289268e/naturepl_01132178.jpg?w=636&h=631" alt="">
+				</div>
+				<div class="content">
+					<div class="tweet-info">
+						<span class="name text-bold">Sarah Strodder</span>
+						<span class="username text-secondary">@Sunshine</span>
+						<span class="time text-secondary">1s</span>
+					</div>
+					<div class="text">
+						The computer is mightier than the pen, the sword, and usually, the programmer. <a href="#">#StruggleBus</a>
+					</div>
+					<div class="interact text-secondary">
+						<div class="t-hover-tw"><i class="bi bi-chat"></i> 99</div>
+						<div class="t-hover-success"><i class="bi bi-arrow-repeat"></i> 99</div>
+						<div class="t-hover-like"><i class="bi bi-heart"></i> 99</div>
+						<div class="t-hover-tw"><i class="bi bi-upload"></i></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container tweet">
+				<div class="img">
+					<img class="profile-pic" src="https://media.npr.org/assets/img/2012/02/17/6874.5_01c91ebc_custom-19a59dc2b8d087677aaed0ebf4055fc5e11a1f80-s800-c85.png" alt="">
+				</div>
+				<div class="content">
+					<div class="tweet-info">
+						<span class="name text-bold">Windows</span>
+						<span class="username text-secondary">@Windows</span>
+						<span class="time text-secondary">-4h</span>
+					</div>
+					<div class="text">
+						Linux sucks. All my homies hate linux!!!!! <a href="#">#GarbageFireUnderABridge</a>
+					</div>
+					<div class="interact text-secondary">
+						<div class="t-hover-tw"><i class="bi bi-chat"></i> 0</div>
+						<div class="t-hover-success"><i class="bi bi-arrow-repeat"></i> 0</div>
+						<div class="t-hover-like"><i class="bi bi-heart"></i> 0</div>
+						<div class="t-hover-tw"><i class="bi bi-upload"></i></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container tweet">
+				<div class="img">
+					<img class="profile-pic" src="https://photos5.appleinsider.com/gallery/47670-93100-000-lead-Apple-Logo-xl.jpg" alt="">
+				</div>
+				<div class="content">
+					<div class="tweet-info">
+						<span class="name text-bold">Apple</span>
+						<span class="username text-secondary">@Apple</span>
+						<span class="time text-secondary">20y</span>
+					</div>
+					<div class="text">
+						Linux, computer operating system created in the early 1990s by Finnish software engineer Linus Torvalds and the Free Software Foundation (FSF).
+						While still a student at the University of Helsinki, Torvalds started developing Linux to create a system similar to MINIX, a UNIX operating system. In 1991 he released version 0.02; Version 1.0 of the Linux kernel, the core of the operating system, was released in 1994. About the same time, American software developer Richard Stallman and the FSF made efforts to create an open-source UNIX-like operating system called GNU. In contrast to Torvalds, Stallman and the FSF started by creating utilities for the operating system first. These utilities were then added to the Linux kernel to create a complete system called GNU/Linux, or, less precisely, just Linux.
+						Technician operates the system console on the new UNIVAC 1100/83 computer at the Fleet Analysis Center, Corona Annex, Naval Weapons Station, Seal Beach, CA. June 1, 1981. Univac magnetic tape drivers or readers in background. Universal Automatic Computer
+						Linux grew throughout the 1990s because of the efforts of hobbyist developers. Although Linux is not as user-friendly as the popular Microsoft Windows and Mac OS operating systems, it is an efficient and reliable system that rarely crashes. Combined with Apache, an open-source Web server, Linux accounts for most of the servers used on the Internet. Because it is open-source, and thus modifiable for different uses, Linux is popular for systems as diverse as cellular telephones and supercomputers. Android, Google’s operating system for mobile devices, has at its core a modified Linux kernel, and Chrome OS, Google’s operating system that uses the Chrome browser, is also Linux-based. The addition of user-friendly desktop environments, office suites, Web browsers, and even games helped to increase Linux’s popularity and make it more suitable for home and office desktops. New distributions (packages of Linux software) have been created since the 1990s. Some of the more well-known distributions include MX Linux, Manjaro, Linux Mint, and Ubuntu.
+						<a href="#">#Knowledge</a>
+					</div>
+					<div class="interact text-secondary">
+						<div class="t-hover-tw"><i class="bi bi-chat"></i> 5</div>
+						<div class="t-hover-success"><i class="bi bi-arrow-repeat"></i> 43k</div>
+						<div class="t-hover-like"><i class="bi bi-heart"></i> 2</div>
+						<div class="t-hover-tw"><i class="bi bi-upload"></i></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
